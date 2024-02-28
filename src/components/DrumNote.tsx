@@ -17,16 +17,25 @@ interface DrumNoteProps {
 const staffPositioning = new StaffPositioning();
 
 const drumNoteMap: {[key: string]: {notePosition: string, noteHead: string}} = {
-	'hihat': {notePosition: staffPositioning.PositionAbove(1, noteSize/2), noteHead: CymbalNoteHead},
-	'snare': {notePosition: staffPositioning.PositionAbove(3, noteSize/2), noteHead: FullNoteHead},
-	'kick': {notePosition: staffPositioning.PositionAbove(5, noteSize/2), noteHead: FullNoteHead}
+	'hihat': {
+		notePosition: staffPositioning.PositionAbove(1, -noteSize/2), 
+		noteHead: CymbalNoteHead
+	},
+	'snare': {
+		notePosition: staffPositioning.PositionAbove(3, -noteSize/2), 
+		noteHead: FullNoteHead
+	},
+	'kick': {
+		notePosition: staffPositioning.PositionAbove(5, -noteSize/2), 
+		noteHead: FullNoteHead
+	}
 }
 
 const DrumNote: React.FC<DrumNoteProps> = ({drumName}) => {
 	return (
 		<image 
 			href={drumNoteMap[drumName].noteHead} 
-			x="50" 
+			x="110" 
 			y={drumNoteMap[drumName].notePosition} 
 			height={formattedNoteSize} 
 			width={formattedNoteSize}/>

@@ -8,8 +8,8 @@ const DrumKey: React.FC = () => {
 
 	const line2 = staffPositioning.PositionOn(2);
 	const line4 = staffPositioning.PositionOn(4);
-	const lineThickness = noteSize;
-	const lineSpacing = noteSize / 2;
+	const lineThickness = noteSize * 1.5;
+	const lineSpacing = noteSize;
 	const keyLine1 = noteSize * 2;
 	const keyLine2 = keyLine1 + lineSpacing + lineThickness;
 

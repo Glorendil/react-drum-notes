@@ -22,19 +22,23 @@ class StaffPositioning {
 		this.staffLineHeight = StaffLineHeight;
 	}
 
-	PositionOn(staffLine: number, offset: number = 0): string {
+	PositionOnAsNumber(staffLine: number, offset: number = 0): number {
 		if (staffLine >= 1 && staffLine <= 5) {
 			var averageOfLineAndNextLine = (this.staffLineHeight[staffLine] + this.staffLineHeight[staffLine + 1]) / 2;
 
-			return `${averageOfLineAndNextLine - offset}%`;
+			return averageOfLineAndNextLine - offset;
 		}
 
-		return "0%";
+		return 0;
+	}
+
+	PositionOn(staffLine: number, offset: number = 0): string {
+			return `${this.PositionOnAsNumber(staffLine, offset)}%`;
 	}
 
 	PositionAbove(staffLine: number, offset: number = 0): string {
 		if (staffLine >= 1 && staffLine <= 5) {
-			return `${this.staffLineHeight[staffLine-1] + offset}%`;
+			return `${this.staffLineHeight[staffLine] + offset}%`;
 		}
 
 		return "0%";
@@ -42,7 +46,7 @@ class StaffPositioning {
 
 	PositionBelow(staffLine: number, offset: number = 0): string {
 		if (staffLine >= 1 && staffLine <= 5) {
-			return `${this.staffLineHeight[staffLine] + offset}%`;
+			return `${this.staffLineHeight[staffLine+1] + offset}%`;
 		}
 
 		return "0%";

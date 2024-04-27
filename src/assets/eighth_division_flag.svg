@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   id="svg3745"
+   viewBox="0 0 28.103 87.88767"
+   version="1.0"
+   sodipodi:docname="eighth_division_flag.svg"
+   width="28.103001"
+   height="87.887672"
+   inkscape:version="1.3.1 (91b66b0, 2023-11-16)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <defs
+     id="defs1" />
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     showgrid="false"
+     inkscape:zoom="6.3319783"
+     inkscape:cx="-5.6064627"
+     inkscape:cy="41.693131"
+     inkscape:window-width="1392"
+     inkscape:window-height="789"
+     inkscape:window-x="0"
+     inkscape:window-y="25"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="layer1" />
+  <g
+     id="layer1"
+     transform="translate(-382.60186,-658.06319)">
+    <path
+       style="fill:#000000;fill-opacity:1;stroke:#ff4653;stroke-width:0;stroke-linecap:round;stroke-linejoin:bevel;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
+       d="m 382.61966,658.06319 -0.0178,30.29081 c 0,0 9.30175,2.48567 14.38865,6.62185 6.15008,5.00066 9.98133,13.02799 8.14795,23.88576 -1.5603,9.24061 -12.88096,27.08925 -12.88096,27.08925 0,0 16.5217,-17.48192 18.1388,-27.43342 1.42647,-8.77848 -2.29348,-18.16016 -6.9214,-25.77794 -3.22931,-5.31562 -6.79485,-9.28311 -11.08763,-14.55481 -4.80353,-5.89886 -9.7676,-20.1215 -9.7676,-20.1215 z"
+       id="path1"
+       sodipodi:nodetypes="ccsscsssc" />
+  </g>
+  <metadata
+     id="metadata1">
+    <rdf:RDF>
+      <cc:Work>
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <cc:license
+           rdf:resource="http://creativecommons.org/publicdomain/zero/1.0/" />
+        <dc:publisher>
+          <cc:Agent
+             rdf:about="http://openclipart.org/">
+            <dc:title>Openclipart</dc:title>
+          </cc:Agent>
+        </dc:publisher>
+        <dc:title>Eighth note</dc:title>
+        <dc:date>2007-04-10T14:26:55</dc:date>
+        <dc:description>Une croche.</dc:description>
+        <dc:source>http://openclipart.org/detail/3864/eighth-note-by-corbeau</dc:source>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>corbeau</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <dc:subject>
+          <rdf:Bag>
+            <rdf:li>clip art</rdf:li>
+            <rdf:li>clipart</rdf:li>
+            <rdf:li>croche</rdf:li>
+            <rdf:li>eighth note</rdf:li>
+            <rdf:li>image</rdf:li>
+            <rdf:li>media</rdf:li>
+            <rdf:li>music</rdf:li>
+            <rdf:li>music notation</rdf:li>
+            <rdf:li>musique</rdf:li>
+            <rdf:li>notation musicale</rdf:li>
+            <rdf:li>note</rdf:li>
+            <rdf:li>public domain</rdf:li>
+            <rdf:li>svg</rdf:li>
+          </rdf:Bag>
+        </dc:subject>
+      </cc:Work>
+      <cc:License
+         rdf:about="http://creativecommons.org/publicdomain/zero/1.0/">
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Reproduction" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Distribution" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#DerivativeWorks" />
+      </cc:License>
+    </rdf:RDF>
+  </metadata>
+</svg>
